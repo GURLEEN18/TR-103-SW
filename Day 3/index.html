@@ -1,90 +1,50 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web </title>
-    <link rel="stylesheet" href="../Day 3/style.css">
+    <title>Amazon Clone - Online Shopping Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
-    <!-- Top Bar -->
-    <div class="topbar">
-        <div class="container">
-            <div class="contact-info">
-                <p>Contact us: +123 456 7890</p>
+    <header>
+        <header>
+            <h1 style="text-align: center;"><b>Welcome to Amazon</b></h1>
+
+            <div class="container">
+                <img src="../Day 3/home.png" alt="Amazon Logo" class="logo" aria-label="Amazon Logo">
+                <nav role="navigation">
+                    <ul>
+                        <li><a href="index.html" aria-current="page">Home</a></li>
+                        <li><a href="products.html" role="menuitem">Products</a></li>
+                        <li><a href="about.html" role="menuitem">About Us</a></li>
+                        <li><a href="contact.html" role="menuitem">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-    </div>
+        </header>
 
-    <!-- Header with Logo and Icons -->
-    <header class="main-header">
-        <div class="container">
-            <div class="logo">
-                <img src="../Day 3/images/flipkart.png" alt="Logo">
+        <main>
+            <section id="home">
+                <figure class="hero">
+                    <img src="../Day 3/images/AMAZON.png" alt="Hero Image" aria-label="Hero Image">
+                    <figcaption class="hero-text">
+                        <h2>Welcome to Amazon</h2>
+                        <p>Discover great deals on millions of products.</p>
+                        <a href="products.html" class="button">Shop Now</a>
+                    </figcaption>
+                </figure>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Amazon Clone. All rights reserved.</p>
             </div>
-            <div class="header-icons">
-                <img src="../image/bxl-twitter.svg" alt="Icon 1">
-                <img src="../image/bxl-facebook-circle.svg" alt="Icon 2">
-                <img src="../image/bxl-instagram-alt.svg" alt="Icon 3">
-            </div>
-        </div>
-    </header>
-
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="container">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Body with Background Image and Center Text -->
-    <section class="hero">
-        <div class="container">
-            <center>
-                <h1>Semantic Web</h1>
-            </center>
-
-        </div>
-    </section>
-
-    <!-- Two Sections with Image and Text -->
-    <section class="content-section">
-        <div class="container">
-            <div class="section-content">
-                <div class="image">
-                    <img src="../image/h.png" alt="Image 1">
-                </div>
-                <div class="text">
-                    <h2>Loreum ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="content-section">
-        <div class="container">
-            <div class="section-content reverse">
-                <div class="text">
-                    <h2>Loreum ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
-                </div>
-                <div class="image">
-                    <img src="../image/back.png" alt="Image 2">
-                </div>
-            </div>
-        </div>
-    </section>
-
+        </footer>
 </body>
 
 </html>
