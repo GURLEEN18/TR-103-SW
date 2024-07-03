@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('/bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: linear-gradient(to bottom, rgb(236, 29, 109), rgb(69, 119, 234));
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+    color: white;
+}
+
+header p,
+header h2 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: white;
+}
+
+nav {
+    background-color: #3acdf6;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav button {
+    background-color: #f8f664;
+    border: none;
+    color: rgb(252, 247, 247);
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+nav button:hover {
+    background-color: hsl(327, 79%, 61%);
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    margin: 20px auto;
+}
+
+.gallery h3 {
+    font-size: 20px;
+    color: azure;
+}
+
+.gallery-image {
+    width: 50%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.caption {
+    font-size: 14px;
+    color: #120101;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #555;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('/bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: linear-gradient(to bottom, rgb(236, 29, 109), rgb(69, 119, 234));
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+    color: white;
+}
+
+header p,
+header h2 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: white;
+}
+
+nav {
+    background-color: #3acdf6;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav button {
+    background-color: #f8f664;
+    border: none;
+    color: rgb(252, 247, 247);
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+nav button:hover {
+    background-color: hsl(327, 79%, 61%);
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    margin: 20px auto;
+}
+
+.gallery h3 {
+    font-size: 20px;
+    color: azure;
+}
+
+.gallery-image {
+    width: 50%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.caption {
+    font-size: 14px;
+    color: #120101;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #555;
+}
