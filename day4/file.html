@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0a0a0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #d57a7a;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .button-container button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button-container button:hover {
+            background-color: #0056b3;
+        }
+
+        .report {
+            display: none;
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Training Report</h1>
+        <div class="button-container">
+            <button><a href="Day1/index.html">Day1</a></button>
+            <button onclick="showReport('day2')">Day 2</button>
+            <button onclick="showReport('day3')">Day 3</button>
+            <button onclick="showReport('day4')">day4</button>
+            <button onclick="showReport('day5')">Day 5</button>
+        </div>
+        <div id="day1" class="report">
+            <h2>Day 1 Report</h2>
+            <p>Details of the training conducted on Day 1...</p>
+        </div>
+        <div id="day2" class="report">
+            <h2>Day 2 Report</h2>
+            <p>Details of the training conducted on Day 2...</p>
+        </div>
+        <div id="day3" class="report">
+            <h2>Day 3 Report</h2>
+            <p>Details of the training conducted on Day 3...</p>
+        </div>
+        <div id="day4" class="report">
+            <h2>Day 4 Report</h2>
+            <p>Details of the training conducted on Day 4...</p>
+        </div>
+        <div id="day5" class="report">
+            <h2>Day 5 Report</h2>
+            <p>Details of the training conducted on Day 5...</p>
+        </div>
+    </div>
+
+    <script>
+        function showReport(day) {
+            // Hide all reports
+            var reports = document.querySelectorAll('.report');
+            reports.forEach(function (report) {
+                report.style.display = 'none';
+            });
+
+            // Show the selected report
+            document.getElementById(day).style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>
